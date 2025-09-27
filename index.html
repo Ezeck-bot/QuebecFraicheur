@@ -7,79 +7,401 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    
+    <!-- icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Forum&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- css local -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Accueil - QuébecFraîcheur</title>
   </head>
   <body>
-
     <header>
         <div class="container">
+            <div class="premier_menu">
+                <ul>
+                    <li>
+                        <h1>LOGO</h1>
+                    </li>
+                    <li>
+                        <a href="user_connexion.html">
+                            <i class="fa-solid fa-user"></i> Sign in
+                        </a>
+                    </li>
+                    <li>
+                        <a href="favorites.html">
+                            <i class="fa-solid fa-heart"></i> Favorites
+                        </a>
+                    </li>
+                    <li>
+                        <a href="panier.html">
+                            <i class="fa-solid fa-cart-shopping"></i> Cart
+                        </a>
+                    </li>
+                </ul>
+                <div class="burger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        
+            <nav class="menu">
+                <ul>
+                    <li class="boutique-bg">
+                        <a href="produit_liste.html">
+                            BOUTIQUE
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="a_propos_de_nous.html">A propos de nous</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="produit_liste.html">Magasiner</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="slider">
+        <div class="container">
             <div class="row">
-                <div class="col-md-8">
-                    <h4>Need help ? Call us : (+1) 888 999 9962</h4>
+                <div class="col-md-6">
+                    <img src="assets/images/slide.webp" class="img-slide">
                 </div>
+                <div class="col-md-6 text-slide">
+                    <p>
+                        QuébecFraîcheur change le monde!
+                    </p>
 
-                <div class="col-md-2">
-                    <i class="fa-solid fa-location-dot"></i> Out Store
-                </div>
+                    <p>
+                        Nulla voluptates rem beatae perferendis quae quidem rerum sapiente. Qui ea inventore possimus totam, quidem delectus eaque, quia ab nesciunt quod quibusdam?
+                    </p>
 
-                <div class="col-md-2">
-                    <i class="fa-solid fa-car-side"></i> Track your order
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ea inventore possimus totam, quidem delectus eaque, quia ab nesciunt quod quibusdam?
+                    </p>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptates rem beatae perferendis quae quidem rerum sapiente.
+                    </p>
+                    
+                    <a class="btn btn-success" href="produit_liste.html">
+                        Magasiner
+                    </a>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div>
+    <div class="mission_vision">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>
+                        MISSION
+                    </h1>
+
+                    <h3>
+                        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mission_vision">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>
+                        VISION
+                    </h1>
+
+                    <h3>
+                        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="banniere">
+        <div class="col-md-12">
+            <img src="assets/images/banniere.webp">
+        </div>
+    </div>
+
+    <div class="membre">
+        <div class="container">
+            <h1>Avantages membres</h1>
+
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+
+            <ul>
+                <li>
+                    Rabais : Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </li>
+
+                <li>
+                    Rabais vrac : Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </li>
+
+                <li>
+                    Spéciaux exclusifs : Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </li>
+            </ul>
+
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+
+            <a class="btn btn-success" href="produit_liste.html">
+                Devenir membre
+            </a>
+        </div>
+    </div>
+    
+    <div class="blog">
+        <div class="container">
+            <h2 class="mb-3">BLOG</h2>
+            
+            <div class="row">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/blog_1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <a class="btn btn-success" href="blog.html">
+                            Lire plus...
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/blog_2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <a class="btn btn-success" href="blog.html">
+                            Lire plus...
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/blog_3.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <a class="btn btn-success" href="blog.html">
+                            Lire plus...
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/blog_4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <a class="btn btn-success" href="blog.html">
+                            Lire plus...
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="devenir_membre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </h1>
+
+                    <h3>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </h3>
+
+                    <a class="btn btn-success" href="produit_liste.html">
+                        Boutique
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="devenir_benevole">
+        <div class="container">
+            <h2>Devenez bénévole auprès de QuébecFraîcheur</h2>
+            <h3>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </h3>
+
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Nom</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Adresse courrielle</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Numéro de téléphone</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1">
+                        </div>
+                        <button type="submit" class="btn btn-success">Soumettre</button>
+                    </form>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="newsletter">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <h1>Souscrire NewSletter</h1>
+                    <p>
+                        Pour être informé de toutes nos nouveautés incrivez vous à notre newsletter.
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <form method="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <button type="submit" class="btn btn-success">Soumettre</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="info_adresse_heure_ouverture">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2730.577309680726!2d-71.22207972253854!3d46.81263164246542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb8967685ade86d%3A0x8ad369eaaa705e66!2sColl%C3%A8ge%20Bart!5e0!3m2!1sfr!2sca!4v1758923708495!5m2!1sfr!2sca" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="col-md-6">
+                    <h3>
+                        <b>
+                            Adresse et heures d'ouverture
+                        </b>
+                    </h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>
+                                <b>
+                                    QuébecFraîcheur
+                                </b>
+                            </p>
+                            <p>
+                                <b>
+                                    751 Côte d'Abraham, Québec, QC G1R 1A2
+                                </b>
+                            </p>
+                            <p>
+                                <b>
+                                    418 522-3906
+                                </b>
+                            </p>
+                            <p>
+                                <b>
+                                    info@bart.ca
+                                </b>
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <table calss="table-heure">
+                                <tr>
+                                    <td>Lundi</td>
+                                    <td> 08H - 16H</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Mardi</td>
+                                    <td> 08H - 16H</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Mecredi</td>
+                                    <td> 08H - 16H</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Jeudi</td>
+                                    <td> 08H - 18H</td>
+                                </tr>
+
+                                <tr>
+                                    <td>vendredi</td>
+                                    <td> 08H - 16H</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Samedi</td>
+                                    <td> 08H - 17H</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Dimanche</td>
+                                    <td> 11H - 17H</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
             <ul>
                 <li>
                     <h1>LOGO</h1>
                 </li>
 
                 <li>
-                    <form method="GET">
-                        <input type="text" placeholder="Search any things">
-                        <button>Search</button>
-                    </form>
+                    Accueil
                 </li>
 
                 <li>
-                    <a href="user_connexion.html">
-                        <i class="fa-solid fa-user"></i> Sign in
-                    </a>
-                    
-                </li>
-
-                <li>
-                    <i class="fa-solid fa-heart"></i> Favorites
-                </li>
-
-                <li>
-                    <a href="panier.html"> 
-                        <i class="fa-solid fa-cart-shopping"></i> Cart
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </header>
-
-
-    <nav>
-        <div>
-            <a href="produit_liste.html">
-                All pruoducts
-            </a>
-        </div>
-
-        <div>
-            <ul>
-                <li>
-                    Home
-                </li>
-
-                <li>
-                    Solde
+                    A propos de nous
                 </li>
 
                 <li>
@@ -87,459 +409,10 @@
                 </li>
 
                 <li>
-                    About us   
-                </li>
-
-                <li>
-                    30 Days Free Returns
+                    Magasiner
                 </li>
             </ul>
         </div>
-    </nav>
-
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-            <img src="assets/img/banp.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-            </div>
-            </div>
-            <div class="carousel-item">
-            <img src="assets/img/banp.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-            </div>
-            </div>
-            <div class="carousel-item">
-            <img src="assets/img/banp.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-            </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                
-                <div class="card-group">
-                    <div class="card">
-                        <img src="assets/img/testimonial-1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="assets/img/testimonial-1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                        <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="assets/img/testimonial-1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                        <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="carousel-item">
-                
-                <div class="card-group">
-                    <div class="card">
-                        <img src="assets/img/testimonial-1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="assets/img/testimonial-1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                        <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="assets/img/testimonial-1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                        <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="carousel-item">
-                
-                <div class="card-group">
-                    <div class="card">
-                        <img src="assets/img/testimonial-1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="assets/img/testimonial-1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                        <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="assets/img/testimonial-1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                        <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <div>
-        <h3>Popular products</h3>
-
-        <div class="card-group">
-            <div class="card">
-                <img src="assets/img/team-3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/team-3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/team-3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/team-3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-            </div>
-        </div>
-
-        <div class="card-group">
-            <div class="card">
-                <img src="assets/img/team-3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/team-3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/team-3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/team-3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <i class="fa-solid fa-truck-fast"></i> <h5> Free Delivery </h5> <span>Order</span>
-            </div>
-
-            <div class="col-md-4">
-                <i class="fa-solid fa-crown"></i> <h5> Best Quality </h5> <span>....</span> 
-            </div>
-
-            <div class="col-md-4">
-                <i class="fa-solid fa-location-dot"></i> <h5> Produced in Quebec </h5> <span>....</span> 
-            </div>
-            
-        </div>
-    </div>
-
-    <div>
-        <h2>Patners</h2>
-        <img src="assets/img/testimonial-1.jpg">
-        <img src="assets/img/testimonial-1.jpg">
-        <img src="assets/img/testimonial-1.jpg">
-        <img src="assets/img/testimonial-1.jpg">
-        <img src="assets/img/testimonial-1.jpg">
-    </div>
-
-    <div>
-        <h2>Lastest news</h2>
-        
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    
-                    <div class="card-group">
-                        <div class="card">
-                            <img src="assets/img/testimonial-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="assets/img/testimonial-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="carousel-item">
-                    
-                    <div class="card-group">
-                        <div class="card">
-                            <img src="assets/img/testimonial-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="assets/img/testimonial-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="carousel-item">
-                    
-                    <div class="card-group">
-                        <div class="card">
-                            <img src="assets/img/testimonial-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="assets/img/testimonial-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <h1>Subscribe NewSletter</h1>
-            </div>
-
-            <div class="col-md-4">
-                <form>
-                    <input type="email" name="email_newsletter">
-                    <button>
-                        <i class="fa-solid fa-paper-plane"></i>
-                    </button>
-                </form>
-            </div>
-
-            <div class="col-md-4">
-                <i class="fa-solid fa-phone-volume"></i> Call us 24/7 : <br> (+1) 888 999 9962
-            </div>
-        </div>
-    </div>
-    
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-            <ul>
-                <li>
-                    <h1>LOGO</h1>
-                </li>
-
-                <li>
-                    <b>751 Côte d'Abraham, Québec, QC G1R 1A2</b>
-                </li>
-            </ul>
-        </div>
-
-        
-        <div class="col-md-4">
-            <h5>Find product</h5>
-            <ul>
-                <li>
-                    Tomates
-                </li>
-                <li>
-                    Oinons
-                </li>
-            </ul>
-        </div>
-
-        <div class="col-md-4">
-            <h5>Get help</h5>
-            <ul>
-                <li>
-                    About us
-                </li>
-                <li>
-                    Contact us
-                </li>
-                <li>
-                    Return policy
-                </li>
-                <li>
-                    Privacy Policy
-                </li>
-                <li>
-                    Payement policy
-                </li>
-            </ul>
-        </div>
-            </div>
-        </div>
-
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
