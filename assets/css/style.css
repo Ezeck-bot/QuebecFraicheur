@@ -263,3 +263,14 @@ footer div ul li {
   align-items: center;    /* Centre verticalement */
   /*height: 300px;*/
 }
+
+/* Blog */
+
+.blog{
+  color: #4A7D02;
+}
+
+/* Text butique */
+.text-boutique{
+  color: #4A7D02;
+}
