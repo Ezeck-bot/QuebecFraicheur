@@ -245,3 +245,32 @@ footer div ul li {
       font-size: 20px;
   }
 }
+
+/* Produit detail */
+
+.img-detail-produtcs{
+  height: 500px;
+  /*width: 300px;*/
+  border-radius: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.container-image-detail{
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center;    /* Centre verticalement */
+  /*height: 300px;*/
+}
+
+/* Blog */
+
+.blog{
+  color: #4A7D02;
+}
+
+/* Text butique */
+.text-boutique{
+  color: #4A7D02;
+}
