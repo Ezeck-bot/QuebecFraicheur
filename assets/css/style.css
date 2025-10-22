@@ -60,12 +60,19 @@ nav ul li {
   color: white;
 }
 
-.images_fruits_solidaires {
+.images_solidaires {
   max-width: 100%; 
   width: 100%;
   height: auto; 
   display: block;
   padding: 40px;
+}
+
+.don_fruits_solidaires{
+  text-align: center;
+  color: #4A7D02;
+  padding-right: 120px;
+  font-size: 16px
 }
 
 .contribution{
