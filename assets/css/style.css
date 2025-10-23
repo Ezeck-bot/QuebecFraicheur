@@ -54,6 +54,21 @@ nav ul li {
   font-size: 16px;
 }
 
+.description_fruits_solidaires{
+  text-align: center;
+  color: #4A7D02;
+  font-size: 16px;
+  padding: 80px;
+}
+
+.description_fruits_solidaires_2{
+  text-align: center;
+  color: #4A7D02;
+  font-size: 16px;
+  padding: 240px;
+}
+
+
 .devenir_membre{
   background-color: #4A7D02;
   text-align: center;
