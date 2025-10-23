@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Forum&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- css local -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Accueil - QuébecFraîcheur</title>
+  </head>
+  <body>
+    <header>
+        <div class="container">
+            <div class="premier_menu">
+                <ul>
+                    <li>
+                        <h1>LOGO</h1>
+                    </li>
+                    <li>
+                        <a href="user_connexion.html">
+                            <i class="fa-solid fa-user"></i> Sign in
+                        </a>
+                    </li>
+                    <li>
+                        <a href="favorites.html">
+                            <i class="fa-solid fa-heart"></i> Favorites
+                        </a>
+                    </li>
+                    <li>
+                        <a href="panier.html">
+                            <i class="fa-solid fa-cart-shopping"></i> Cart
+                        </a>
+                    </li>
+                </ul>
+                <div class="burger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        
+            <nav class="menu">
+                <ul>
+                    <li class="boutique-bg">
+                        <a href="produit_liste.html">
+                            BOUTIQUE
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="a_propos_de_nous.html">A propos de nous</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="produit_liste.html">Magasiner</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-active mt-4">
+        <div class="container">
+            <span> 
+                <a href="index.html">
+                    Accueil
+                </a>
+            </span> 
+            > 
+            <span>
+                <a href="produit_liste.html">
+                    Boutique
+                </a>
+            </span>
+            > 
+            <span>Panier</span>
+        </div>
+    </div>
+
+    <div class="produit_detail mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <h1>
+                    Votre panier
+                </h1>
+                <div class="col-md-6">
+                    
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <img src="assets/images/panier.webp" id="img-cart">
+                                    </td>
+                                    <td>
+                                        Panier de tomates
+                                        <br>
+                                        Qte : 1
+                                        <br>
+                                        Retrait en magasin
+                                    </td>
+                                    <td>
+                                        <b>60.00 $CAD</b>
+                                        <br>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <p>
+                        <b>
+                            Comment l'obtenir
+                        </b>
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i> 751 Côte d'Abraham, Québec, QC G1R 1A2
+                    </p>
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Sous-total
+                                    </td>
+                                    <td>
+                                        <b>60.00 $CAD</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Taxes estimées
+                                    </td>
+                                    <td>
+                                        <b>0.0 $CAD</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Total estimé de la commande
+                                    </td>
+                                    <td>
+                                        <b>60.00 $CAD</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Total des économies
+                                    </td>
+                                    <td>
+                                        <b>0.0 $CAD</b>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-success">
+                                Procéder au paiement
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <ul>
+                <li>
+                    <h1>LOGO</h1>
+                </li>
+
+                <li>
+                    Accueil
+                </li>
+
+                <li>
+                    A propos de nous
+                </li>
+
+                <li>
+                    Blog
+                </li>
+
+                <li>
+                    Magasiner
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="assets/js/js.js"></script>
+  </body>
+</html>

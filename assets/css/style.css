@@ -274,3 +274,10 @@ footer div ul li {
 .text-boutique{
   color: #4A7D02;
 }
+
+/* Panier */
+#img-cart{
+  width: 84px;
+  height: 84px;
+  border-radius: 12px;
+}
