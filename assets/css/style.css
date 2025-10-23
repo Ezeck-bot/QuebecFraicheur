@@ -54,18 +54,31 @@ nav ul li {
   font-size: 16px;
 }
 
+.description_laboratoire_coop{
+  text-align: center;
+  color: black;
+  font-size: 16px;
+}
+
+.description_laboratoire_coop_2{
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  padding: 6rem;
+}
+
 .description_fruits_solidaires{
   text-align: center;
   color: #4A7D02;
   font-size: 16px;
-  padding: 80px;
+  padding: 9rem;
 }
 
 .description_fruits_solidaires_2{
   text-align: center;
   color: #4A7D02;
   font-size: 16px;
-  padding: 240px;
+  padding: 9rem;
 }
 
 
