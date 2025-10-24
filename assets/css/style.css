@@ -281,3 +281,33 @@ footer div ul li {
   height: 84px;
   border-radius: 12px;
 }
+
+/* blog detail */
+
+.mission_comite{
+  text-align: center;
+  color: #4A7D02;
+  padding: 40px;
+  font-size: 16px
+}
+
+.images_solidaires {
+  max-width: 100%; 
+  width: 100%;
+  height: auto; 
+  display: block;
+  padding: 40px;
+}
+
+.description_laboratoire_coop{
+  text-align: center;
+  color: black;
+  font-size: 16px;
+}
+
+.description_laboratoire_coop_2{
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  padding: 6rem;
+}
